@@ -5,6 +5,7 @@ import ProjectListPage from './pages/ProjectListPage';
 import ProjectDetailsPage from './pages/ProjectDetailsPage';
 import EditProjectPage from './pages/EditProjectPage';
 import { Routes, Route } from 'react-router-dom';
+console.log(process.env)
 
 function App() {
   return (

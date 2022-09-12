@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import AddTask from "../components/AddTask";
 import TaskCard from "../components/TaskCard";
  
-const API_URL = process.env.API_URL || "http://localhost:5005";
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5005";
 
 function ProjectDetailsPage (props) {
   const [project, setProject] = useState(null);
